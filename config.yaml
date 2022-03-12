@@ -38,6 +38,15 @@ monitors:
     method: GET
     expectStatus: 200
     
+  - id: 163.com # unique identifier
+    name: 163.com
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://163.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    
   - id: 1dns.cc
     name: 1dns.cc
     description: 'Built for anything connected to the Internet.'
