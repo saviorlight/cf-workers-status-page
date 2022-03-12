@@ -41,13 +41,13 @@ monitors:
   - id: 1dns.cc
     name: 1dns.cc
     description: 'Built for anything connected to the Internet.'
-    url: '1dns.cc'
+    url: 'https://1dns.cc'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
     
   - id: baidu.com
-    name: baidu.com
+    name: 'https://baidu.com'
     description: 'Built for anything connected to the Internet.'
     url: 'baidu.com'
     method: GET
